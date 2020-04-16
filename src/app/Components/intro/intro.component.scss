@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  max-width:max-content;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: auto;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+
+  padding: 20px;
+}
