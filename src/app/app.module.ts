@@ -26,6 +26,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { JobComponent } from './Components/job/job.component';
 import { SkillsComponent } from './Components/skills/skills.component';
+import { SelectedWorkComponent } from './Components/selected-work/selected-work.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { SkillsComponent } from './Components/skills/skills.component';
     FooterComponent,
     NavbarComponent,
     JobComponent,
-    SkillsComponent
+    SkillsComponent,
+    SelectedWorkComponent
   ],
   imports: [
     BrowserModule,
