@@ -6,6 +6,8 @@ import { EducationComponent } from './Components/education/education.component';
 import { SkillsComponent } from './Components/skills/skills.component';
 import { JobComponent } from './Components/job/job.component';
 import { SayHelloComponent } from './Components/say-hello/say-hello.component';
+import { SelectedWorkComponent } from './Components/selected-work/selected-work.component';
+import { BlogComponent } from './Components/blog/blog.component';
 
 
 const routes: Routes = [
@@ -14,7 +16,10 @@ const routes: Routes = [
   { path: 'education', component: EducationComponent },
   { path: 'skills', component: SkillsComponent },
   { path: 'job', component: JobComponent },
+  {path: 'blog', component:BlogComponent},
+  {path: 'work', component:SelectedWorkComponent},
   { path: 'contract', component: SayHelloComponent},
+  {path: '**', component:IntroComponent},
 
 
 
